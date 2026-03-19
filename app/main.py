@@ -1,5 +1,5 @@
-from managers import ActorManager
-from models import Actor
+from app.managers import ActorManager
+from app.models import Actor
 
 if __name__ == "__main__":
     Actor.objects = ActorManager("actors.sqlite", "actors")
